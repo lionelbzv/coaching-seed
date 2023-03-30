@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "tsc populate-db.ts",
+    "start": "node populate-db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/pg": "^8.6.6",
+    "typescript": "^4.9.5"
+  }
+}
